@@ -10,7 +10,7 @@ pull docker
 exec docker  echochio/ntop
 -----------
  
- netflow come from 9997 udp
+ netflow come from 9996 udp
  
  make log in /log
     
@@ -23,7 +23,7 @@ exec docker  echochio/ntop
 
  Run docker  
 
-     docker run -d -e Local=192.168.0.0/16 -p 192.168.0.70:3001:3001 -p 9997:9997/udp --name=ntop echochio/ntop
+     docker run -d -e Local=192.168.0.0/16 -p 192.168.0.70:3001:3001 -p 9996:9996/udp --name=ntop echochio/ntop
 
 Browser
  
