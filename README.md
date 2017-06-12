@@ -29,3 +29,7 @@ Browser
  
      https://192.168.0.70:3001/
      
+Set up flow
+
+![alt tag](https://github.com/chio-nzgft/cacti-wan-speed-cheker/blob/master/images/1481787019-2075263314_n.png)
+     
