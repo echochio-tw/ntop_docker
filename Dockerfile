@@ -7,6 +7,8 @@ RUN wget http://sourceforge.net/projects/ntop/files/ntop/Stable/ntop-5.0.1.tar.g
 RUN tar xvfz ntop-5.0.1.tar.gz
 WORKDIR /tmp/ntop-5.0.1
 RUN sh ./autogen.sh && make && make install
+WORKDIR /tmp
+RUN rm -rf /tmp/*
 RUN useradd -r -s /bin/false ntop
 RUN chown -R ntop:ntop /usr/local/share/ntop /usr/local/lib/ntop /usr/local/var/ntop
 RUN /sbin/ldconfig
