@@ -31,5 +31,5 @@ Browser
      
 Set up flow
 
-![alt tag](https://github.com/chio-nzgft/cacti-wan-speed-cheker/blob/master/images/1481787019-2075263314_n.png)
+![alt tag](https://github.com/chio-nzgft/ntop_docker/raw/master/p1.png)
      
