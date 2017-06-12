@@ -22,5 +22,5 @@ Browser
      
 Set up flow
 
-![alt tag](https://github.com/chio-nzgft/ntop_docker/raw/master/p1.png)
+![alt tag](https://github.com/echochio-tw/ntop_docker/raw/master/p1.png)
      
